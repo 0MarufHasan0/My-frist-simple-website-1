@@ -25,33 +25,6 @@
     color: blue;
     cursor: pointer;
 }
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.menu-container{
-    background-color: rgb(34, 34, 34);
-    padding: 10px;
-    color: aliceblue;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-}
-.home-menu{
-    display: flex;
-}
-.menu-margin{
-    margin-right: 10px;
-    padding-right: 8px;
-    font-size: 18px;
-    transition: 0.4s;
-}
-.menu-margin:hover{
-    background-color: rgb(13, 219, 24);
-    color: blue;
-    cursor: pointer;
-}
 .logo-image{
     width: 120px;
 }
@@ -93,4 +66,108 @@
 }
 .button:hover{
     background-color:blueviolet;
+}
+.about-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+.headdd{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+   
+    
+}
+.banner-photo{
+    height: 500px;
+    margin-right: 100px;
+}
+.about-info{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+ 
+}
+.information{
+    font-size: 20px;
+}
+.button2{
+    padding: 5px;
+    margin: 2px;
+    background-color:rgb(230, 17, 148);
+    border: none;
+    border-radius: 4px solid red;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.button2:hover{
+    background-color: aqua;
+}
+.box{
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 120px;
+}
+.box-tittle{
+    padding: 10px;
+}
+.box-discrption{
+    padding: 5px;
+}
+.service-container{
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   }
+.footer-main{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+   
+}
+.logo-box{
+    width: 25%;
+    margin-top: 25px;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy-right{
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-title{
+    margin-bottom: 30px;
 }
